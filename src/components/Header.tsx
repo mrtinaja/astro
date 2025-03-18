@@ -19,18 +19,24 @@ const Navbar = () => {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
         <ul
-          className={md:flex gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-blue-600 md:bg-transparent md:flex-row flex-col items-center md:items-center md:opacity-100 transition-all duration-300 ease-in-out ${
-    isOpen ? "opacity-100" : "opacity-0 md:opacity-100 hidden md:flex"
-  }}
+          className={`${
+            isOpen ? "opacity-100" : "opacity-0 md:opacity-100 hidden md:flex"
+          } md:flex gap-6 absolute md:static top-16 left-0 w-full md:w-auto bg-blue-600 md:bg-transparent md:flex-row flex-col items-center md:items-center md:opacity-100 transition-all duration-300 ease-in-out`}
         >
           <li>
-            <Link to="/" className="hover:text-gray-300">Inicio</Link>
+            <Link to="/" className="hover:text-gray-300">
+              Inicio
+            </Link>
           </li>
           <li>
-            <Link to="/nosotros" className="hover:text-gray-300">Nosotros</Link>
+            <Link to="/nosotros" className="hover:text-gray-300">
+              Nosotros
+            </Link>
           </li>
           <li>
-            <Link to="/contacto" className="hover:text-gray-300">Contacto</Link>
+            <Link to="/contacto" className="hover:text-gray-300">
+              Contacto
+            </Link>
           </li>
         </ul>
       </div>
