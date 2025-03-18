@@ -10,8 +10,9 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node", // Usar la resolución de módulos de Node.js
-    "types": ["node"], // Asegúrate de que esto esté aquí
-    "jsx": "react-jsx"
+
+    "jsx": "react-jsx",
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

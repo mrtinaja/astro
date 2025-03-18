@@ -1,5 +1,5 @@
 {
-  "name": "my-react-app",
+  "name": "astro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,8 +13,8 @@
     "@tailwindcss/postcss": "^4.0.14",
     "@types/tailwindcss": "^3.1.0",
     "lucide-react": "^0.482.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-router-dom": "^7.3.0",
     "ts-node": "^10.9.2"
   },
